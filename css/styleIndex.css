@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+	padding: 8px;
+	background-color: #66AADF;
+    text-align:center;
+    min-height:50px;
+}
+#titulo-logo{
+    padding: 22px 0px 0px 5px
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/Bg2.png');
+}
+
+.container {
+	width: auto;
+	margin: 50px auto;
+	text-align: center;
+    background-color:#AED3EE;
+    border-radius: 20px;
+}
+
+.texto-opcoes{
+    padding: 15px 15px 0px 15px;
+}
+
+.menu{
+    padding: 12px 50px 25px;
+}
+
+.botao{
+    margin-top: 20px;
+	width: 85%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size:large;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #66AADF;
+    color: #ffffff;
+}
+
+.botao:hover{
+    background-color: #ffffff;
+    color: #66AADF;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon-rodape{
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 600px){
+	.container {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}

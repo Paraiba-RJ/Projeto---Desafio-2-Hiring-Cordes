@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/styleProdutoeCliente.css">
+        <link rel="shortcut icon" href="../assets/Icon/favicon.ico" type="image/x-icon"/>
+		<title>Sistema de Cadastramento - Cadastrar Produto</title>
+	</head>
+	<body>
+		<header>
+			<img src="../assets/logo.png">
+			<div id="titulo-logo"><h4>Sample Informática - Sistema de Cadastramento</h4></div>
+		</header>
+		<section class="container">
+            <div id="texto-titulo">
+                <h1>Cadastrar Produto:</h1>
+            </div>
+            <div id="form">
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input class="form-opcao" id="nome-produto" type="text" name="nome-produto" placeholder=" Nome do Produto"/><br>
+                    <label for="descricao">Descrição:</label><br>
+                    <input class="form-opcao" id="descricao" type="text" name="descricao" placeholder=" Descrição do Produto"/><br>
+                    <label for="categoria">Categoria:</label><br>
+                    <input class="form-opcao" id="categoria" type="text" name="categoria" placeholder=" Categoria do Produto"/><br>
+                    <label for="preco">Preço:</label><br>
+                    <input class="form-opcao" id="preco" type="text" name="preco" placeholder=" Preço do Produto"/><br>
+                    <label for="quantidade">Quantidade:</label><br>
+                    <input class="form-opcao" id="quantidade" type="text" name="quantidade" placeholder=" Quantidade em Estoque"/><br>
+                </form>
+            </div>
+            <div id="opcao-botao">
+                <input  class="botao" id="botao-cadastrar" type="submit" value="Cadastrar" onclick="cadastrarProduto()"/>
+                </div>
+		</section>
+		<footer>
+			<section class="rodape">
+				<div id="direitos"><h4>Copyright © 2021 Grupo Sample S.A - Todos os direitos reservados.</h4></div>
+			</section>
+		</footer>
+		<script src="../js/script.js" type="text/javascript"></script>
+	</body>
+</html>

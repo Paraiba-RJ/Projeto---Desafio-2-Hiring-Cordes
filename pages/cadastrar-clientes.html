@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/styleProdutoeCliente.css">
+        <link rel="shortcut icon" href="../assets/Icon/favicon.ico" type="image/x-icon"/>
+		<title>Sistema de Cadastramento - Cadastrar Cliente</title>
+	</head>
+	<body>
+		<header>
+			<img src="../assets/logo.png">
+			<div id="titulo-logo"><h4>Sample Informática - Sistema de Cadastramento</h4></div>
+		</header>
+		<section class="container">
+            <div id="texto-titulo">
+                <h1>Cadastrar Cliente:</h1>
+            </div>
+            <div id="form">
+                <form>
+                    <label for="nome">Nome e Sobrenome:</label><br>
+                    <input class="form-opcao" id="nome-completo" type="text" name="nome" placeholder=" Digite seu Nome e Sobrenome"/><br>
+                    <label for="idade">Idade:</label><br>
+                    <input class="form-opcao" id="idade" type="text" name="idade" placeholder=" Digite sua idade"/><br>
+                    <label for="idade">Celular:</label><br>
+                    <input class="form-opcao" id="Celular" type="text" name="Celular" placeholder=" Digite seu número"/><br>
+                    <label for="cidade-uf">Cidade/UF:</label><br>
+                    <input class="form-opcao" id="cidade-uf" type="text" name="cidade-uf" placeholder=" Digite sua Cidade/UF"/><br>
+                    <label for="endereço">Logradouro:</label><br>
+                    <input class="form-opcao" id="Logradouro" type="text" name="Logradouro" placeholder=" Digite seu Endereço"/><br>
+                    <label for="endereço">Complemento:</label><br>
+                    <input class="form-opcao" id="complemento" type="text" name="complemento" placeholder=" Opcional"/><br>
+                    <label for="cep">CEP:</label><br>
+                    <input class="form-opcao" id="cep" type="text" name="cep" placeholder=" Digite seu CEP"/><br>
+                </form>
+            </div>
+            <div id="opcao-botao">
+            <input  class="botao" id="botao-cadastrar" type="submit" value="Cadastrar" onclick="CadastrarCliente()"/>
+                </div>
+		</section>
+		<footer>
+			<section class="rodape">
+				<div id="direitos"><h4>Copyright © 2021 Grupo Sample S.A - Todos os direitos reservados.</h4></div>
+				</section>
+		</footer>
+		<script src="../js/script.js" type="text/javascript"></script>
+	</body>
+</html>
